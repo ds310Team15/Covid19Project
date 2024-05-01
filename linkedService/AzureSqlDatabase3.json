@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDatabase3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=covid19-sqlserver-h4pyigjp7qiiu.database.windows.net;initial catalog=covid19;user id=sqladmin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyMjc2Y2YzMS0wNDRiLTQ0NjgtOWE2ZC1lZDUxMGU5Y2RjMjMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
